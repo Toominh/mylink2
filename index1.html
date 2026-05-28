@@ -349,8 +349,6 @@ body::before {
   cursor: grab;
   min-height: 90px;
   -webkit-tap-highlight-color: transparent;
-  -webkit-touch-callout: none;
-  user-select: none;
 }
 .link-card:active { cursor: grabbing; }
 .link-card:hover { background: var(--surface2); border-color: var(--accent); transform: translateY(-2px); box-shadow: var(--shadow); }
@@ -396,22 +394,19 @@ body::before {
   text-align: center;
 }
 
-/* Edit mode – nút sửa/xóa hiện góc dưới, KHÔNG che nội dung */
+/* Edit mode overlay on link card */
 .link-actions {
   position: absolute;
-  bottom: 4px;
-  right: 4px;
+  inset: 0;
+  background: rgba(0,0,0,0.75);
+  border-radius: var(--radius-sm);
   display: none;
-  gap: 4px;
-  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  backdrop-filter: blur(2px);
 }
 body.edit-mode .link-actions { display: flex; }
-/* Viền accent nhẹ để nhận biết card đang ở edit mode */
-body.edit-mode .link-card {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent-glow);
-  padding-bottom: 36px;
-}
 
 /* ===== MODAL ===== */
 .modal-overlay {
@@ -920,11 +915,7 @@ function renderGroup(g, gi) {
       ` : ''}
     </div>
   `;
-  hdr.addEventListener('click', (e) => {
-    // Prevent toggle if we just finished a drag
-    if (hdr._wasDragging) { hdr._wasDragging = false; return; }
-    toggleGroup(g.id);
-  });
+  hdr.addEventListener('click', () => toggleGroup(g.id));
 
   // Body
   const body = document.createElement('div');
@@ -939,7 +930,7 @@ function renderGroup(g, gi) {
     });
   }
 
-  // Drag events for group (desktop HTML5 DnD)
+  // Drag events for group
   if (editMode) {
     card.addEventListener('dragstart', e => {
       // Ignore if the drag originated from a link card inside this group
@@ -970,9 +961,6 @@ function renderGroup(g, gi) {
         }
       }
     });
-
-    // Touch drag for group (mobile/iOS) – attach to header to avoid conflict with link cards
-    initTouchDrag(hdr, g.id, null);
   }
 
   card.appendChild(hdr);
@@ -1015,13 +1003,18 @@ function renderLink(l, gid, li) {
 
   // Click to open (non-edit mode)
   card.addEventListener('click', () => {
-    if (card._wasDragging) { card._wasDragging = false; return; }
     if (!editMode) window.open(l.url, '_blank', 'noopener');
   });
 
-  // HTML5 Drag events for link (desktop)
+  // Touch long press for edit mode on mobile
+  let pressTimer;
+  card.addEventListener('touchstart', () => {
+    pressTimer = setTimeout(() => { if (!editMode) { toggleEditMode(); } }, 600);
+  });
+  card.addEventListener('touchend', () => clearTimeout(pressTimer));
+
+  // Drag events for link – always enabled (not just edit mode)
   card.addEventListener('dragstart', e => {
-    if (!editMode) return;
     dragSrcGroup = gid;
     dragSrcLink = l.id;
     e.dataTransfer.effectAllowed = 'move';
@@ -1030,13 +1023,13 @@ function renderLink(l, gid, li) {
   card.addEventListener('dragend', () => card.classList.remove('dragging-link'));
   card.addEventListener('dragover', e => {
     e.preventDefault();
-    if (dragSrcLink && editMode) card.classList.add('drag-over-link');
+    if (dragSrcLink) card.classList.add('drag-over-link');
   });
   card.addEventListener('dragleave', () => card.classList.remove('drag-over-link'));
   card.addEventListener('drop', e => {
     e.preventDefault();
     card.classList.remove('drag-over-link');
-    if (!dragSrcLink || !editMode) return;
+    if (!dragSrcLink) return;
     const srcGroup = state.groups.find(x => x.id === dragSrcGroup);
     const dstGroup = state.groups.find(x => x.id === gid);
     if (!srcGroup || !dstGroup) return;
@@ -1052,140 +1045,7 @@ function renderLink(l, gid, li) {
     save(); render();
   });
 
-  // Touch drag for link (mobile/iOS)
-  initTouchDrag(card, gid, l.id);
-
   return card;
-}
-
-// ===== TOUCH DRAG & DROP (iOS/Mobile) =====
-function initTouchDrag(card, gid, lid) {
-  let pressTimer = null;
-  let isDragging = false;
-  let clone = null;
-  let startX = 0, startY = 0;
-
-  function cleanup() {
-    clearTimeout(pressTimer);
-    pressTimer = null;
-    if (clone) { clone.remove(); clone = null; }
-    card.style.opacity = '';
-    isDragging = false;
-    document.querySelectorAll('.drag-over, .drag-over-link').forEach(x => {
-      x.classList.remove('drag-over', 'drag-over-link');
-    });
-  }
-
-  card.addEventListener('touchstart', e => {
-    if (!editMode) return;
-    const touch = e.touches[0];
-    startX = touch.clientX;
-    startY = touch.clientY;
-
-    pressTimer = setTimeout(() => {
-      isDragging = true;
-      const rect = card.getBoundingClientRect();
-      clone = card.cloneNode(true);
-      clone.style.cssText = `
-        position:fixed;width:${rect.width}px;height:${rect.height}px;
-        top:${rect.top}px;left:${rect.left}px;
-        opacity:0.85;pointer-events:none;z-index:9999;
-        border:2px solid var(--accent);border-radius:var(--radius-sm);
-        transform:scale(1.05) rotate(2deg);transition:none;
-        box-shadow:0 8px 32px rgba(0,0,0,0.5);
-      `;
-      document.body.appendChild(clone);
-      card.style.opacity = '0.3';
-      if (lid) { dragSrcGroup = gid; dragSrcLink = lid; }
-      else { dragSrcGroup = gid; dragSrcLink = null; }
-    }, 350);
-  }, { passive: true });
-
-  card.addEventListener('touchmove', e => {
-    const touch = e.touches[0];
-    const dx = Math.abs(touch.clientX - startX);
-    const dy = Math.abs(touch.clientY - startY);
-
-    if (!isDragging) {
-      // Cancel press if user is scrolling
-      if (dx > 8 || dy > 8) clearTimeout(pressTimer);
-      return;
-    }
-
-    e.preventDefault();
-    const rect = card.getBoundingClientRect();
-    const cw = clone ? parseInt(clone.style.width) : rect.width;
-    const ch = clone ? parseInt(clone.style.height) : rect.height;
-    if (clone) {
-      clone.style.top  = (touch.clientY - ch / 2) + 'px';
-      clone.style.left = (touch.clientX - cw / 2) + 'px';
-    }
-
-    // Clear previous highlights
-    document.querySelectorAll('.drag-over, .drag-over-link').forEach(x => {
-      x.classList.remove('drag-over', 'drag-over-link');
-    });
-
-    // Find element under finger
-    if (clone) clone.style.display = 'none';
-    const el = document.elementFromPoint(touch.clientX, touch.clientY);
-    if (clone) clone.style.display = '';
-
-    if (!el) return;
-    if (lid) {
-      const tLink = el.closest('.link-card');
-      if (tLink && tLink !== card) tLink.classList.add('drag-over-link');
-    } else {
-      const tGroup = el.closest('.group-card');
-      if (tGroup && tGroup.dataset.gid !== gid) tGroup.classList.add('drag-over');
-    }
-  }, { passive: false });
-
-  function onTouchEnd(e) {
-    if (!isDragging) { cleanup(); return; }
-    card._wasDragging = true; // prevent click-after-touch from firing
-
-    const touch = e.changedTouches[0];
-    if (clone) clone.style.display = 'none';
-    const el = document.elementFromPoint(touch.clientX, touch.clientY);
-    cleanup();
-
-    if (!el) return;
-
-    if (lid) {
-      // Drop link onto another link card
-      const tLink = el.closest('.link-card');
-      if (!tLink || tLink === card) return;
-      const dstLid = tLink.dataset.lid;
-      const dstGid = tLink.closest('.group-card')?.dataset.gid;
-      if (!dstLid || !dstGid) return;
-      const srcGroup = state.groups.find(x => x.id === dragSrcGroup);
-      const dstGroup = state.groups.find(x => x.id === dstGid);
-      if (!srcGroup || !dstGroup) return;
-      const srcIdx = srcGroup.links.findIndex(x => x.id === dragSrcLink);
-      const dstIdx = dstGroup.links.findIndex(x => x.id === dstLid);
-      if (srcIdx === -1) return;
-      const [moved] = srcGroup.links.splice(srcIdx, 1);
-      dstGroup.links.splice(dstIdx >= 0 ? dstIdx : dstGroup.links.length, 0, moved);
-      save(); render();
-    } else {
-      // Drop group onto another group
-      const tGroup = el.closest('.group-card');
-      if (!tGroup || tGroup.dataset.gid === gid) return;
-      const fromIdx = state.groups.findIndex(x => x.id === gid);
-      const toIdx = state.groups.findIndex(x => x.id === tGroup.dataset.gid);
-      if (fromIdx > -1 && toIdx > -1) {
-        const [moved] = state.groups.splice(fromIdx, 1);
-        state.groups.splice(toIdx, 0, moved);
-        save(); render();
-      }
-    }
-
-    dragSrcGroup = null; dragSrcLink = null;
-  }
-
-  card.addEventListener('touchend', onTouchEnd);
-  card.addEventListener('touchcancel', cleanup);
 }
 
 // ===== TOGGLE GROUP =====
