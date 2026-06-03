@@ -1,0 +1,523 @@
+{
+  "groups": [
+    {
+      "id": "0ilp2ao6mpp74u0g",
+      "name": "Sen",
+      "color": "rgb(163, 230, 53)",
+      "links": [
+        {
+          "id": "xylj2bl4mpp6nv15",
+          "url": "https://toominh.github.io/mylink/",
+          "name": "My Links",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "m7xlzddwmpp761j8",
+          "url": "https://toominh.github.io/Diennuoc/",
+          "name": "Điện nước",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "852of4z2mpp7706j",
+          "url": "https://toominh.github.io/lichtuan",
+          "name": "Lịch Tu An",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "9dl1yjh1mpp85cnq",
+          "url": "http://tplinkrepeater.net/",
+          "name": "tplinkrepeater.net",
+          "img": ""
+        },
+        {
+          "id": "cmlnowc5mpp85v21",
+          "url": "https://www.amazon.com/sendtokindle",
+          "name": "sendtokindle",
+          "img": ""
+        },
+        {
+          "id": "ir5nk2dgmpp8756b",
+          "url": "https://www.facebook.com/groups/1850512801848252",
+          "name": "Fb Họ Lê Nguyễn",
+          "img": ""
+        },
+        {
+          "id": "t13aiuadmpp87uh4",
+          "url": "https://www.facebook.com/groups/1706291643025833",
+          "name": "Minh Sen",
+          "img": ""
+        },
+        {
+          "id": "5guq93dgmpppu5mo",
+          "url": "https://toominh.github.io/Giapha/",
+          "name": "Gia pha",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "0xhrv8vtmpppwskl",
+          "url": "https://toominh.github.io/langdio/",
+          "name": "LangDio",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "7ektc1iompppy3so",
+          "url": "https://toominh.github.io/tiengtrung2/",
+          "name": "tiengtrung2",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "xols1u7tmpprwx6z",
+          "url": "https://toominh.github.io/reader/",
+          "name": "Reader",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "6t3pqqlpmpr5fhvu",
+          "url": "https://haiphongilc.org/",
+          "name": "SDLHP",
+          "img": ""
+        },
+        {
+          "id": "gns4g9oampr5lagm",
+          "url": "https://sites.google.com/view/tiengtrungcoho/trang-ch%E1%BB%A7",
+          "name": "tiengtrungcoho",
+          "img": ""
+        },
+        {
+          "id": "67qbtjd8mpr5xgcd",
+          "url": "https://sites.google.com/",
+          "name": "sites.google.com",
+          "img": ""
+        },
+        {
+          "id": "tcajo9esmpr6ekgy",
+          "url": "https://www.blogger.com/",
+          "name": "blogger.com",
+          "img": ""
+        },
+        {
+          "id": "4crtgnmrmpr6tucq",
+          "url": "./Emoji.html",
+          "name": "Emoji",
+          "img": ""
+        },
+        {
+          "id": "xs44dj4pmprrxrm8",
+          "url": "https://www.icloud.com/",
+          "name": "icloud.com",
+          "img": ""
+        },
+        {
+          "id": "4o4tcbl0mpvduow1",
+          "url": "https://toominh.github.io/giaphatuan/",
+          "name": "giaphatuan",
+          "img": "img/bs.jpg"
+        },
+        {
+          "id": "cukloxgimpvgcwtc",
+          "url": "https://toominh.github.io/giaphaholenguyen/",
+          "name": "Gia phả họ Lê Nguyễn",
+          "img": "img/bs.jpg"
+        }
+      ]
+    },
+    {
+      "id": "0r4or4ldmpp60n9s",
+      "name": "AI",
+      "color": "rgb(124, 106, 247)",
+      "links": [
+        {
+          "id": "9szt04g2mpp60n9s",
+          "url": "https://chat.openai.com",
+          "name": "ChatGPT",
+          "img": ""
+        },
+        {
+          "id": "03fecqmqmpp6p0fr",
+          "url": "https://gemini.google.com/",
+          "name": "gemini",
+          "img": ""
+        },
+        {
+          "id": "dcmhhb0kmpp6rhxg",
+          "url": "https://claude.ai/",
+          "name": "claude.ai",
+          "img": ""
+        },
+        {
+          "id": "kxa35ihmmpp6v461",
+          "url": "https://www.perplexity.ai/",
+          "name": "perplexity",
+          "img": ""
+        },
+        {
+          "id": "r9awb2dumpp6xa22",
+          "url": "https://copilot.microsoft.com/",
+          "name": "Copilot",
+          "img": "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/microsoft-copilot.png"
+        },
+        {
+          "id": "vqkea3kmmpp6ye9x",
+          "url": "https://grok.com/",
+          "name": "grok",
+          "img": ""
+        },
+        {
+          "id": "dhzmkfw7mpp88zh6",
+          "url": "https://mail.google.com/",
+          "name": "mail",
+          "img": "img/gmail.png"
+        },
+        {
+          "id": "fsljyem4mpp82w3t",
+          "url": "https://drive.google.com/",
+          "name": "Drive",
+          "img": "img/drive.png"
+        },
+        {
+          "id": "z066cdlkmpp84jjn",
+          "url": "https://keep.google.com/",
+          "name": "Keep",
+          "img": "img/keep.png"
+        },
+        {
+          "id": "6yn8qx8gmpp83us1",
+          "url": "https://earth.google.com/web/@23.3328535,113.52365609,-837.26074817a,8905777.32049942d,35y,0h,0t,0r?hl=vi-VN",
+          "name": "earth",
+          "img": ""
+        },
+        {
+          "id": "rufazqd9mpp83eg6",
+          "url": "https://www.google.com/maps/@20.846736,106.6876948,16.75z?hl=vi-VN",
+          "name": "Map",
+          "img": "img/map.png"
+        },
+        {
+          "id": "5bgvcgzxmppp9ywg",
+          "url": "https://iboard.ssi.com.vn/",
+          "name": "ssi",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "id": "ipmdvgzdmpp60n9s",
+      "name": "Mạng xã hội",
+      "color": "#38bdf8",
+      "links": [
+        {
+          "id": "ti52g7b2mpp60n9s",
+          "url": "https://facebook.com",
+          "name": "Facebook",
+          "img": ""
+        },
+        {
+          "id": "o94jfyqnmpp60n9s",
+          "url": "https://github.com",
+          "name": "GitHub",
+          "img": ""
+        },
+        {
+          "id": "86ngyw2rmpp60n9s",
+          "url": "https://youtube.com",
+          "name": "YouTube",
+          "img": ""
+        },
+        {
+          "id": "zs341recmpp7sj05",
+          "url": "https://chat.zalo.me/",
+          "name": "zalo",
+          "img": ""
+        },
+        {
+          "id": "yj5jf3xempp7v0ge",
+          "url": "https://x.com/",
+          "name": "x.com",
+          "img": ""
+        },
+        {
+          "id": "0hx5nmzumpp89gs6",
+          "url": "https://www.notion.so/",
+          "name": "notion",
+          "img": ""
+        },
+        {
+          "id": "vznwaqqvmppp1kzu",
+          "url": "https://www.reddit.com/",
+          "name": "reddit",
+          "img": ""
+        },
+        {
+          "id": "4261rpt0mppp384q",
+          "url": "https://www.canva.com/vi_vn/",
+          "name": "canva",
+          "img": ""
+        },
+        {
+          "id": "mzpmerkjmppp3zsp",
+          "url": "https://www.pinterest.com/",
+          "name": "pinterest",
+          "img": ""
+        },
+        {
+          "id": "puae6lh4mppp5jwl",
+          "url": "https://www.magnific.com/vn",
+          "name": "Freepik",
+          "img": ""
+        },
+        {
+          "id": "7w2h045dmppp7s1x",
+          "url": "https://www.behance.net/",
+          "name": "behance.net",
+          "img": ""
+        },
+        {
+          "id": "iaagisc5mpr10g60",
+          "url": "https://www.tiktok.com/",
+          "name": "tiktok.com",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "id": "ev3dbmltmpp78lms",
+      "name": "Mua bán",
+      "color": "rgb(124, 106, 247)",
+      "links": [
+        {
+          "id": "b7x38tl4mpp78z3h",
+          "url": "https://shopee.vn/",
+          "name": "shopee.vn",
+          "img": ""
+        },
+        {
+          "id": "mpi23c7jmpp79xuk",
+          "url": "https://tiki.vn/",
+          "name": "tiki.vn",
+          "img": ""
+        },
+        {
+          "id": "w4wajtqempp7af96",
+          "url": "https://aliexpress.com/",
+          "name": "aliexpress",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "id": "1kcdpbaempp7bshl",
+      "name": "Báo",
+      "color": "rgb(124, 106, 247)",
+      "links": [
+        {
+          "id": "ndrwjozcmpp7ceeb",
+          "url": "https://news.google.com.vn/",
+          "name": "news.google.com.vn",
+          "img": ""
+        },
+        {
+          "id": "7s11n4dbmpp7cs3g",
+          "url": "https://vnexpress.net/",
+          "name": "vnexpress.net",
+          "img": ""
+        },
+        {
+          "id": "oqx7rifympp7d5y4",
+          "url": "https://baomoi.com/",
+          "name": "baomoi.com",
+          "img": ""
+        },
+        {
+          "id": "uqpeg949mpp7dr3m",
+          "url": "http://www.msn.com/",
+          "name": "msn.com",
+          "img": ""
+        },
+        {
+          "id": "urh73dl5mpp7ebr8",
+          "url": "https://feedly.com/",
+          "name": "feedly.com",
+          "img": ""
+        },
+        {
+          "id": "naqje4g2mpp7h5f9",
+          "url": "https://tiasang.com.vn/",
+          "name": "tiasang.com.vn",
+          "img": ""
+        },
+        {
+          "id": "g4u0ani7mpp7hhs6",
+          "url": "https://chungta.com/",
+          "name": "Trang chủ :: ChúngTa.com",
+          "img": ""
+        },
+        {
+          "id": "8t0121rgmpp7hw8g",
+          "url": "https://nghiencuuquocte.net/",
+          "name": "nghiencuuquocte.net",
+          "img": ""
+        },
+        {
+          "id": "jwyhjs9nmpp7iaun",
+          "url": "https://nghiencuulichsu.com/",
+          "name": "nghiencuulichsu.com",
+          "img": ""
+        },
+        {
+          "id": "pno38fzempp7iq38",
+          "url": "https://arttimes.vn/",
+          "name": "arttimes.vn",
+          "img": ""
+        },
+        {
+          "id": "ogeflppgmpp7q14q",
+          "url": "https://www.24h.com.vn/",
+          "name": "24h.com.vn",
+          "img": ""
+        },
+        {
+          "id": "s7jgodbempp7z4bz",
+          "url": "https://ngocdenroi.com/",
+          "name": "ngocdenroi.com",
+          "img": ""
+        },
+        {
+          "id": "6w6ym4nmmpp7zse0",
+          "url": "https://cham.media/",
+          "name": "cham.media",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "id": "5o9jqigrmpp8bgoh",
+      "name": "Thời tiết",
+      "color": "rgb(163, 230, 53)",
+      "links": [
+        {
+          "id": "knzsjlv7mpp7ezbt",
+          "url": "https://www.google.com/search?q=th%E1%BB%9Di+ti%E1%BA%BFt+h%E1%BA%A3i+ph%C3%B2ng",
+          "name": "Thời tiét",
+          "img": ""
+        },
+        {
+          "id": "umrt2r6gmpp8c49b",
+          "url": "https://www.windy.com/vi/-M%C3%A2y-clouds?clouds,16.088,110.830,5",
+          "name": "windy.com",
+          "img": ""
+        },
+        {
+          "id": "i69v0a9dmpp8cojz",
+          "url": "https://www.tide-forecast.com/locations/Haiphong-Vietnam/tides/latest",
+          "name": "tide-forecast.com",
+          "img": ""
+        },
+        {
+          "id": "ka1aqavbmpp8d6sb",
+          "url": "https://dinhvuport.com.vn/vn/tidetable.html",
+          "name": "dinhvuport.com.vn",
+          "img": ""
+        },
+        {
+          "id": "smdi6jyhmpp8dnwl",
+          "url": "https://www.worldtides.com/tidestations/South_East_Asia/Thailand/Do_Son",
+          "name": "worldtides.com",
+          "img": ""
+        },
+        {
+          "id": "4fzssoutmpp8f5aj",
+          "url": "https://www.youtube.com/@vtvthoitietofficial/videos",
+          "name": "Thời tiết",
+          "img": ""
+        }
+      ]
+    },
+    {
+      "id": "bolefkrqmppo9pu9",
+      "name": "Media",
+      "color": "rgb(124, 106, 247)",
+      "links": [
+        {
+          "id": "y9ni04ekmpp8ah9k",
+          "url": "https://vtvgo.vn/",
+          "name": "vtvgo",
+          "img": ""
+        },
+        {
+          "id": "oyvdin2qmppob047",
+          "url": "https://fptplay.vn/xem-truyen-hinh/vtv1-hd",
+          "name": "fptplay",
+          "img": ""
+        },
+        {
+          "id": "x3cjzr9ymppodgul",
+          "url": "https://tv360.vn/tv/vtv1-hd",
+          "name": "tv360.vn",
+          "img": ""
+        },
+        {
+          "id": "o24kxk21mppoemts",
+          "url": "https://vieon.vn/truyen-hinh-truc-tuyen/vtv1-hd/",
+          "name": "vieon.vn",
+          "img": ""
+        },
+        {
+          "id": "86i393gmmpr0f23t",
+          "url": "https://fsharetv.com/",
+          "name": "fsharetv.com",
+          "img": ""
+        },
+        {
+          "id": "7negh9ymmpr0s4r5",
+          "url": "https://www.iq.com/",
+          "name": "iq.com",
+          "img": ""
+        },
+        {
+          "id": "5ynwm7nvmpr0uoq3",
+          "url": "https://danet.vn/",
+          "name": "danet.vn",
+          "img": ""
+        },
+        {
+          "id": "0vjebdcfmpr0xnya",
+          "url": "https://www.dailymotion.com/",
+          "name": "dailymotion.com",
+          "img": ""
+        },
+        {
+          "id": "zd8hmi7gmpr1ie4w",
+          "url": "https://vov.vn/vov-plus/radio",
+          "name": "vov.vn",
+          "img": ""
+        },
+        {
+          "id": "aduxqs10mpr1n2n4",
+          "url": "https://open.spotify.com/",
+          "name": "Spotify",
+          "img": ""
+        },
+        {
+          "id": "cbw5nr7zmpr1qkmo",
+          "url": "https://soundcloud.com/",
+          "name": "soundcloud.com",
+          "img": ""
+        },
+        {
+          "id": "wa89vsa1mpr20poe",
+          "url": "https://podcasts.apple.com/",
+          "name": "podcasts.apple",
+          "img": ""
+        },
+        {
+          "id": "fipoczjumpr23gbm",
+          "url": "https://music.youtube.com/",
+          "name": "music.youtube",
+          "img": ""
+        }
+      ]
+    }
+  ],
+  "theme": "neon",
+  "collapsedGroups": {}
+}
