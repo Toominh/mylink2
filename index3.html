@@ -1511,7 +1511,7 @@ function displaySampleDataFilesInMenu(files) {
 
 async function loadSampleDataFileInMenu(filename) {
   sampleDataDropdownInMenu.classList.remove('show');
-  document.getElementById('menu-dropdown').classList.remove('show');
+  menuDropdown.classList.remove('show');
   
   try {
     const response = await fetch(`./data/${filename}`);
