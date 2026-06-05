@@ -74,20 +74,20 @@
         {
           "id": "6t3pqqlpmpr5fhvu",
           "url": "https://haiphongilc.org/",
-          "name": "Sống độc lập",
-          "img": "img/blueicon.jpg"
+          "name": "SDLHP",
+          "img": ""
         },
         {
           "id": "gns4g9oampr5lagm",
           "url": "https://sites.google.com/view/tiengtrungcoho/trang-ch%E1%BB%A7",
           "name": "tiengtrungcoho",
-          "img": "img/site.png"
+          "img": ""
         },
         {
           "id": "67qbtjd8mpr5xgcd",
           "url": "https://sites.google.com/",
-          "name": "Site google",
-          "img": "img/site.png"
+          "name": "sites.google.com",
+          "img": ""
         },
         {
           "id": "tcajo9esmpr6ekgy",
@@ -118,12 +118,6 @@
           "url": "https://toominh.github.io/giaphaholenguyen/",
           "name": "Gia phả họ Lê Nguyễn",
           "img": "img/bs.jpg"
-        },
-        {
-          "id": "ttts2ucwmq0gfwlg",
-          "url": "https://toominh.github.io/xemnhietdo/",
-          "name": "Xem nhiệt độ",
-          "img": "img/nhietdo.webp"
         }
       ]
     },
@@ -404,7 +398,7 @@
           "id": "knzsjlv7mpp7ezbt",
           "url": "https://www.google.com/search?q=th%E1%BB%9Di+ti%E1%BA%BFt+h%E1%BA%A3i+ph%C3%B2ng",
           "name": "Thời tiét",
-          "img": "img/weather-icon.webp"
+          "img": ""
         },
         {
           "id": "umrt2r6gmpp8c49b",
