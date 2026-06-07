@@ -124,18 +124,6 @@
           "url": "https://toominh.github.io/xemnhietdo/",
           "name": "Xem nhiệt độ",
           "img": "img/nhietdo.webp"
-        },
-        {
-          "id": "t8xlzzammq38ytwd",
-          "url": "https://toominh.github.io/xemnhietdo/hardware-info.html",
-          "name": "hardware-info",
-          "img": "img/nhietdo.webp"
-        },
-        {
-          "id": "fgubrrg0mq3903xv",
-          "url": "https://www.speedtest.net/",
-          "name": "speedtest",
-          "img": ""
         }
       ]
     },
