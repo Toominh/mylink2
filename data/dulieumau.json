@@ -12,6 +12,30 @@
           "img": "img/bs.jpg"
         },
         {
+          "id": "knzsjlv7mpp7ezbt",
+          "url": "https://www.google.com/search?q=th%E1%BB%9Di+ti%E1%BA%BFt+h%E1%BA%A3i+ph%C3%B2ng",
+          "name": "Thời tiét",
+          "img": "img/weather-icon.webp"
+        },
+        {
+          "id": "vlo0lmkvmq7hqxbg",
+          "url": "https://www.google.com/search?q=l%E1%BB%8Bch+thi+%C4%91%E1%BA%A5u+world+cup+2026",
+          "name": "world cup 2026",
+          "img": "https://upload.wikimedia.org/wikipedia/vi/3/33/USA-Canada-Mexico_2026_World_Cup_Bid_Logo.svg"
+        },
+        {
+          "id": "9yqge2nomq7hx788",
+          "url": "https://www.24h.com.vn/world-cup-2026-c860.html",
+          "name": "24h",
+          "img": "https://upload.wikimedia.org/wikipedia/vi/6/6b/Logo_trang_24h.png"
+        },
+        {
+          "id": "ttts2ucwmq0gfwlg",
+          "url": "https://toominh.github.io/xemnhietdo/",
+          "name": "Xem nhiệt độ",
+          "img": "img/nhietdo.webp"
+        },
+        {
           "id": "m7xlzddwmpp761j8",
           "url": "https://toominh.github.io/Diennuoc/",
           "name": "Điện nước",
@@ -72,18 +96,6 @@
           "img": "img/bs.jpg"
         },
         {
-          "id": "9pmbafl8mq4jewkd",
-          "url": "https://toominh.github.io/xemanh/",
-          "name": "Nghe Nhìn",
-          "img": "img/bs.jpg"
-        },
-        {
-          "id": "lndfymkzmq4jfhyt",
-          "url": "https://toominh.github.io/xemanh/link",
-          "name": "Link Nhạc",
-          "img": "img/bs.jpg"
-        },
-        {
           "id": "6t3pqqlpmpr5fhvu",
           "url": "https://haiphongilc.org/",
           "name": "Sống độc lập",
@@ -130,18 +142,6 @@
           "url": "https://toominh.github.io/giaphaholenguyen/",
           "name": "Gia phả họ Lê Nguyễn",
           "img": "img/bs.jpg"
-        },
-        {
-          "id": "ttts2ucwmq0gfwlg",
-          "url": "https://toominh.github.io/xemnhietdo/",
-          "name": "Xem nhiệt độ",
-          "img": "img/nhietdo.webp"
-        },
-        {
-          "id": "a6j9bi6qmq3aq7ao",
-          "url": "https://toominh.github.io/xemnhietdo/hw_info.html",
-          "name": "hw_info",
-          "img": "img/nhietdo.webp"
         },
         {
           "id": "t8xlzzammq38ytwd",
@@ -431,12 +431,6 @@
       "color": "rgb(163, 230, 53)",
       "links": [
         {
-          "id": "knzsjlv7mpp7ezbt",
-          "url": "https://www.google.com/search?q=th%E1%BB%9Di+ti%E1%BA%BFt+h%E1%BA%A3i+ph%C3%B2ng",
-          "name": "Thời tiét",
-          "img": "img/weather-icon.webp"
-        },
-        {
           "id": "umrt2r6gmpp8c49b",
           "url": "https://www.windy.com/vi/-M%C3%A2y-clouds?clouds,16.088,110.830,5",
           "name": "windy.com",
@@ -555,5 +549,12 @@
     }
   ],
   "theme": "neon",
-  "collapsedGroups": {}
+  "collapsedGroups": {
+    "0r4or4ldmpp60n9s": true,
+    "ipmdvgzdmpp60n9s": true,
+    "ev3dbmltmpp78lms": true,
+    "bolefkrqmppo9pu9": true,
+    "5o9jqigrmpp8bgoh": true,
+    "1kcdpbaempp7bshl": true
+  }
 }
