@@ -12,12 +12,6 @@
           "img": "img/bs.jpg"
         },
         {
-          "id": "ndrwjozcmpp7ceeb",
-          "url": "https://news.google.com.vn/",
-          "name": "news.google.com.vn",
-          "img": ""
-        },
-        {
           "id": "knzsjlv7mpp7ezbt",
           "url": "https://www.google.com/search?q=th%E1%BB%9Di+ti%E1%BA%BFt+h%E1%BA%A3i+ph%C3%B2ng",
           "name": "Thời tiét",
@@ -160,12 +154,6 @@
           "url": "https://www.speedtest.net/",
           "name": "speedtest",
           "img": ""
-        },
-        {
-          "id": "m5wyxbzomqhuee5r",
-          "url": "https://toominh.github.io/qlvb/",
-          "name": "Quản lý văn bản",
-          "img": "az"
         }
       ]
     },
@@ -244,12 +232,6 @@
           "id": "5bgvcgzxmppp9ywg",
           "url": "https://iboard.ssi.com.vn/",
           "name": "ssi",
-          "img": ""
-        },
-        {
-          "id": "ayt962ssmqiyawj3",
-          "url": "https://ai-expert-hub.dothanhcong.vn/",
-          "name": "ai-expert-hub.dothanhcong.vn",
           "img": ""
         }
       ]
@@ -364,9 +346,9 @@
       "color": "rgb(124, 106, 247)",
       "links": [
         {
-          "id": "qufznupimqg6jhhf",
+          "id": "ndrwjozcmpp7ceeb",
           "url": "https://news.google.com.vn/",
-          "name": "news.google.com.vn (copy)",
+          "name": "news.google.com.vn",
           "img": ""
         },
         {
@@ -568,8 +550,11 @@
   ],
   "theme": "neon",
   "collapsedGroups": {
+    "0r4or4ldmpp60n9s": true,
+    "ipmdvgzdmpp60n9s": true,
     "ev3dbmltmpp78lms": true,
     "bolefkrqmppo9pu9": true,
-    "5o9jqigrmpp8bgoh": true
+    "5o9jqigrmpp8bgoh": true,
+    "1kcdpbaempp7bshl": true
   }
 }
