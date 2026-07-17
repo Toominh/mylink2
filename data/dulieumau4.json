@@ -6,12 +6,6 @@
       "color": "rgb(163, 230, 53)",
       "links": [
         {
-          "id": "m5wyxbzomqhuee5r",
-          "url": "https://toominh.github.io/qlvb/",
-          "name": "Quản lý văn bản",
-          "img": "az"
-        },
-        {
           "id": "xylj2bl4mpp6nv15",
           "url": "https://toominh.github.io/mylink/",
           "name": "My Links",
@@ -20,7 +14,7 @@
         {
           "id": "ndrwjozcmpp7ceeb",
           "url": "https://news.google.com.vn/",
-          "name": "news.google",
+          "name": "news.google.com.vn",
           "img": ""
         },
         {
@@ -60,15 +54,15 @@
           "img": "img/bs.jpg"
         },
         {
-          "id": "86ngyw2rmpp60n9s",
-          "url": "https://youtube.com",
-          "name": "YouTube",
+          "id": "9dl1yjh1mpp85cnq",
+          "url": "http://tplinkrepeater.net/",
+          "name": "tplinkrepeater.net",
           "img": ""
         },
         {
-          "id": "ti52g7b2mpp60n9s",
-          "url": "https://facebook.com",
-          "name": "Facebook",
+          "id": "cmlnowc5mpp85v21",
+          "url": "https://www.amazon.com/sendtokindle",
+          "name": "sendtokindle",
           "img": ""
         },
         {
@@ -132,21 +126,9 @@
           "img": ""
         },
         {
-          "id": "9dl1yjh1mpp85cnq",
-          "url": "http://tplinkrepeater.net/",
-          "name": "tplinkrepeater.net",
-          "img": ""
-        },
-        {
           "id": "4crtgnmrmpr6tucq",
           "url": "./Emoji.html",
           "name": "Emoji",
-          "img": ""
-        },
-        {
-          "id": "cmlnowc5mpp85v21",
-          "url": "https://www.amazon.com/sendtokindle",
-          "name": "sendtokindle",
           "img": ""
         },
         {
@@ -180,22 +162,10 @@
           "img": ""
         },
         {
-          "id": "42tuieb1mqv6dcua",
-          "url": "https://www.lexilogos.com/keyboard/chinese_pinyin.htm",
-          "name": "keyboard/chinese",
-          "img": ""
-        },
-        {
-          "id": "phe5nuuimr5x708s",
-          "url": "https://www.cchatty.com/pdf/2503",
-          "name": "cchatty.com",
-          "img": ""
-        },
-        {
-          "id": "32q25spamr5x9r3z",
-          "url": "https://www.scribd.com/document/930371587/B%E1%BA%A3n-Sao-C%E1%BB%A7a-Hanyu-Tingli-Jiaocheng-1-%C4%90ap-An",
-          "name": "scribd.com",
-          "img": ""
+          "id": "m5wyxbzomqhuee5r",
+          "url": "https://toominh.github.io/qlvb/",
+          "name": "Quản lý văn bản",
+          "img": "az"
         }
       ]
     },
@@ -208,6 +178,12 @@
           "id": "9szt04g2mpp60n9s",
           "url": "https://chat.openai.com",
           "name": "ChatGPT",
+          "img": ""
+        },
+        {
+          "id": "03fecqmqmpp6p0fr",
+          "url": "https://gemini.google.com/",
+          "name": "gemini",
           "img": ""
         },
         {
@@ -235,30 +211,11 @@
           "img": ""
         },
         {
-          "id": "5bgvcgzxmppp9ywg",
-          "url": "https://iboard.ssi.com.vn/",
-          "name": "ssi",
-          "img": ""
+          "id": "dhzmkfw7mpp88zh6",
+          "url": "https://mail.google.com/",
+          "name": "mail",
+          "img": "img/gmail.png"
         },
-        {
-          "id": "xka4zaosmr5wpqwe",
-          "url": "https://gemini.google.com/",
-          "name": "gemini (copy)",
-          "img": ""
-        },
-        {
-          "id": "ayt962ssmqiyawj3",
-          "url": "https://ai-expert-hub.dothanhcong.vn/",
-          "name": "ai-expert-hub.dothanhcong.vn",
-          "img": ""
-        }
-      ]
-    },
-    {
-      "id": "k0909u9vmr4d9x6g",
-      "name": "Google",
-      "color": "rgb(163, 230, 53)",
-      "links": [
         {
           "id": "fsljyem4mpp82w3t",
           "url": "https://drive.google.com/",
@@ -266,19 +223,13 @@
           "img": "img/drive.png"
         },
         {
-          "id": "dhzmkfw7mpp88zh6",
-          "url": "https://mail.google.com/",
-          "name": "mail",
-          "img": "img/gmail.png"
+          "id": "z066cdlkmpp84jjn",
+          "url": "https://keep.google.com/",
+          "name": "Keep",
+          "img": "img/keep.png"
         },
         {
-          "id": "zvo91gqlmr4bt0mn",
-          "url": "https://youtube.com",
-          "name": "YouTube",
-          "img": ""
-        },
-        {
-          "id": "wuwmrmbtmr4d7nzw",
+          "id": "6yn8qx8gmpp83us1",
           "url": "https://earth.google.com/web/@23.3328535,113.52365609,-837.26074817a,8905777.32049942d,35y,0h,0t,0r?hl=vi-VN",
           "name": "earth",
           "img": ""
@@ -290,15 +241,15 @@
           "img": "img/map.png"
         },
         {
-          "id": "z066cdlkmpp84jjn",
-          "url": "https://keep.google.com/",
-          "name": "Keep",
-          "img": "img/keep.png"
+          "id": "5bgvcgzxmppp9ywg",
+          "url": "https://iboard.ssi.com.vn/",
+          "name": "ssi",
+          "img": ""
         },
         {
-          "id": "03fecqmqmpp6p0fr",
-          "url": "https://gemini.google.com/",
-          "name": "gemini",
+          "id": "ayt962ssmqiyawj3",
+          "url": "https://ai-expert-hub.dothanhcong.vn/",
+          "name": "ai-expert-hub.dothanhcong.vn",
           "img": ""
         }
       ]
@@ -309,7 +260,7 @@
       "color": "#38bdf8",
       "links": [
         {
-          "id": "ey6uebeqmr4bsyg6",
+          "id": "ti52g7b2mpp60n9s",
           "url": "https://facebook.com",
           "name": "Facebook",
           "img": ""
@@ -321,7 +272,7 @@
           "img": ""
         },
         {
-          "id": "r10p78i6mr4db6sx",
+          "id": "86ngyw2rmpp60n9s",
           "url": "https://youtube.com",
           "name": "YouTube",
           "img": ""
@@ -611,28 +562,14 @@
           "url": "https://music.youtube.com/",
           "name": "music.youtube",
           "img": ""
-        },
-        {
-          "id": "qvq0fbqymr355587",
-          "url": "https://vkvideo.ru/",
-          "name": "vkvideo",
-          "img": ""
-        },
-        {
-          "id": "d2bpvr8kmr35609f",
-          "url": "https://rophims.co.uk/trang-chu",
-          "name": "rophims.co.uk",
-          "img": ""
         }
       ]
     }
   ],
   "theme": "neon",
   "collapsedGroups": {
-    "ipmdvgzdmpp60n9s": true,
     "ev3dbmltmpp78lms": true,
-    "1kcdpbaempp7bshl": true,
-    "5o9jqigrmpp8bgoh": true,
-    "bolefkrqmppo9pu9": true
+    "bolefkrqmppo9pu9": true,
+    "5o9jqigrmpp8bgoh": true
   }
 }
